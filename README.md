@@ -6,6 +6,14 @@
   <ul>
     <li>python 3.9.12</li>
   </ul>
+  <li>실행방법</li>
+  <ol>
+    <li>anaconda를 이용해서 가상환경 만들기 : conda create -n dm python=3.9.12</li>
+    <li>가상환경 활성화 : conda activate dm</li>
+    <li>visual code에서 동작할 수 있도록 ipyknernel 설치 : pip install ipykernel</li>
+    <li>setup.ipynb 실행 후 커널 재시작</li>
+    <li>main.ipynb 실행</li>
+  </ol>
   <li>code</li>
   <ul>
     <li>main.ipynb : 데이터 전처리, 특성 추출, 모델 정의 및 학습</li>
